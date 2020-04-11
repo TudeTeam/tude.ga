@@ -4,5 +4,10 @@
 /register         https://idp.tude.ga/join
 /resetpassword    https://idp.tude.ga/resetpassword
 
+/freestuff            https://freestuffbot.xyz/
+/freestuff/*          https://freestuffbot.xyz/:splat
+/half-life-alyx-free  https://freestuffbot.xyz/half-life-alyx-free
+
 /events           https://events.tude.ga/
 /discord          https://discord.tude.ga/
+/linjo            https://play.google.com/store/apps/details?id=de.tude.lines

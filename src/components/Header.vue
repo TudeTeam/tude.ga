@@ -63,8 +63,8 @@ export default class Header extends Vue {
 			name: "Products",
 			// url: "/products",
 			elements: [
-				{ name: "Linjo", url: "https://play.google.com/store/apps/details?id=de.tude.lines" },
-				{ name: "FreeStuff", url: "/freestuff" },
+				{ name: "Linjo", url: "https://tude.ga/linjo" },
+				{ name: "FreeStuff", url: "https://freestuffbot.xyz/" },
 				// { name: "All Products", url: "/products" }
 			]
 		},
