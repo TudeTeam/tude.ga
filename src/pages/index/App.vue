@@ -82,13 +82,13 @@ export default class App extends Vue {
 			img: "splashart_aboutus.svg",
 			color: "#6A8D80"
 		},
-		{
-			title: "tude\nevents",
-			desc: "season 2",
-			link: "https://events.tude.ga/",
-			img: "splashart_tudeevents.svg",
-			color: "#E59C30"
-		}
+		// {
+		// 	title: "tude\nevents",
+		// 	desc: "season 2",
+		// 	link: "https://events.tude.ga/",
+		// 	img: "splashart_tudeevents.svg",
+		// 	color: "#E59C30"
+		// }
 	];
 
 	public content = this.allcontent[0];
