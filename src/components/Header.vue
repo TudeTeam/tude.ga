@@ -74,6 +74,7 @@ export default class Header extends Vue {
 			elements: [
 				{ name: "About", url: "/about" },
 				{ name: "Developers", url: "https://developers.tude.ga/" },
+				{ name: "Business", url: "https://business.tude.ga/" },
 				{ name: "Contact", url: "mailto:tudeteam@gmail.com" },
 				{ name: "Legal", url: "/legal" },
 				// { name: "Even More", url: "/more" }

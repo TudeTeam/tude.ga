@@ -8,8 +8,12 @@
 		</section>
 
 		<section class="content-intro">
-			<h2>More details soon.</h2>
-			<h3>This website is still under construction!</h3>
+			<h2>We're just getting started!</h2>
+			<h3>More on us later...</h3>
+		</section>
+
+		<section class="social">
+			<!-- TODO SOCIAL MEDIA -->
 		</section>
 	</div>
 </template>
@@ -58,6 +62,7 @@ export default class App extends Vue {}
 }
 
 .content-intro {
+	position: relative;
 	width: 100%;
 	padding-top: 10vh;
 
@@ -76,7 +81,19 @@ export default class App extends Vue {}
 		font-family: $font-regular;
 		color: $color-minor;
 		font-size: 14pt;
-	}	
+	}
+
+	span {
+		margin-top: 4vh;
+		display: inline-block;
+		position: relative;
+		left: 35%;
+		width: 30%;
+		text-align: center;
+		font-family: $font-regular;
+		color: $color-regular;
+		font-size: 14pt;
+	}
 }
 </style>
 

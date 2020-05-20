@@ -3,10 +3,10 @@
 		<a :href="url">
 			<span>
 				{{ name }}
-				<svg xmlns="http://www.w3.org/2000/svg" width="7" height="5"><g fill="none" fill-rule="evenodd"><path d="M0 0h7v5H0z"/><path d="M0 1l3.488 2.737L6.975 1" stroke="currentColor"/></g></svg>
+				<svg v-if="elements && elements.length" xmlns="http://www.w3.org/2000/svg" width="7" height="5"><g fill="none" fill-rule="evenodd"><path d="M0 0h7v5H0z"/><path d="M0 1l3.488 2.737L6.975 1" stroke="currentColor"/></g></svg>
 			</span>
 		</a>
-		<ul>
+		<ul v-if="elements && elements.length">
 			<HeaderElement
 				v-for="element in elements"
 				:key="element.name"

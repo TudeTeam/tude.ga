@@ -2,8 +2,8 @@
 	<div id="app">
 		<Header pagename="Tude Club"/>
 
-		<h2>Check back later.</h2>
-		<h3>This is all still under construction!</h3>
+		<h2>We are still building the club.</h2>
+		<h3>In the meanwhile check out our <a href="https://discord.gg/mJnQXet">discord</a>!</h3>
 	</div>
 </template>
 

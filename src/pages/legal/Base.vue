@@ -43,22 +43,9 @@ $content-width: 800px;
 
 /* */
 
-html,
-body,
 #app {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	padding: 0;
-	margin: 0;
-}
-
-#app {
-	display: flex;
-	justify-content: center;
-	overflow-x: hidden;
+	position: relative;
+	height: unset;
 }
 
 #titlebox {
@@ -92,30 +79,45 @@ h1 {
 	position: relative;
 	width: 90%;
 	max-width: $content-width;
-	padding: 240px 200px 0 0;
-	margin-right: -200px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 240px 0 20vh 0;
 	z-index: 2;
 }
 </style>
 
 <style lang="scss">
-#content.legal-app {
+body {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#content {
+
 	* {
 		color: $color-regular;
 		font-family: $font-regular;
 		font-size: 12pt;
+		margin-bottom: 7pt;
+	}
+
+	p {
+		line-height: 20pt;
 	}
 
 	h2 {
 		font-weight: 600;
 		font-size: 26px;
 		text-transform: uppercase;
-		padding: 30px 0 20px 0;
+		padding: 40px 0 10px 0;
 		
 		&, * {
-			color: $color-major;
-			font-family: $font-major;
-			font-size: 18pt;
+			color: $color-major !important;
+			font-family: $font-major !important;
+			font-size: 18pt !important;
+			text-decoration: none !important;
+			background: none !important;
+			pointer-events: none;
 		}
 	}
 
@@ -139,11 +141,17 @@ h1 {
 		color: #2a63b9;
 		text-decoration: underline;
 		padding: 2px 4px;
+		margin: -2px -4px;
 		border-radius: 3px;
 
 		&:hover {
 			background: #2a63b922;
 		}
 	}
+
+	li {
+		margin-left: 16pt;
+	}
+		
 }
 </style>

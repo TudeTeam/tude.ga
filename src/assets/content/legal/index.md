@@ -1,7 +1,9 @@
 
 ## Tude
 [Terms of Service](/legal/terms)
+
 [Privacy Policy](/legal/privacy)
+
 [Imprint](/legal/imprint)
 
 ## Linjo
@@ -12,4 +14,5 @@
 
 ## FreeStuff
 [FreeStuff Terms of Service](/legal/terms/freestuff)
+
 [FreeStuff Privacy Policy](/legal/privacy/freestuff)

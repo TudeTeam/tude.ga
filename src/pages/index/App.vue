@@ -62,18 +62,18 @@ export default class App extends Vue {
 
 	public allcontent = [
 		{
-			title: "linjo",
-			desc: "out now",
-			link: "https://play.google.com/store/apps/details?id=de.tude.lines",
-			img: "splashart_linjo.svg",
-			color: "#6289D9"
-		},
-		{
 			title: "free\nstuff",
 			desc: "discord bot",
 			link: "./freestuff",
 			img: "splashart_freestuff.svg",
 			color: "#E59C30"
+		},
+		{
+			title: "linjo",
+			desc: "out now",
+			link: "https://play.google.com/store/apps/details?id=de.tude.lines",
+			img: "splashart_linjo.svg",
+			color: "#6289D9"
 		},
 		{
 			title: "we are\ntude",
